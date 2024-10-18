@@ -48,11 +48,32 @@ struct ContentView: View {
     @State private var userInput: String = "" // Input dell'utente
     @State private var comparisonResult: String = "" // Risultato del confronto
     @State private var inItaliano: String = "" //Traduzione
+    @State private var file: String = "Hiragana"
     
     var body: some View {
         VStack {
-            if var randomWord = randomWord {
-                Text("Parola casuale")
+            //Scelta esercizio
+            Menu("Scegli esercizio") {
+                Button("Hiragana", action: {
+                    words = CSVParser.loadCSV(from: "Hiragana")
+                    randomWord = words.randomElement()
+                    file = "Hiragana"
+                })
+                Button("Katakana", action: {
+                    words = CSVParser.loadCSV(from: "Katakana")
+                    randomWord = words.randomElement()
+                    file = "Katakana"
+                })
+                Button("Words", action: {
+                    words = CSVParser.loadCSV(from: "Words")
+                    randomWord = words.randomElement()
+                    file = "Words"
+                })
+            }
+            .padding()
+            
+            if let randomWord = randomWord {
+                Text(file)
                     .font(.headline)
                     .padding()
                 
@@ -96,7 +117,7 @@ struct ContentView: View {
         }
         .onAppear {
             // Carica il CSV e seleziona una parola casuale quando la vista appare
-            words = CSVParser.loadCSV(from: "Words")
+            words = CSVParser.loadCSV(from: "Hiragana")
             randomWord = words.randomElement() // Scegli una parola casuale
         }
     }

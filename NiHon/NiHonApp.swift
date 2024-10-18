@@ -9,10 +9,11 @@ import SwiftUI
 
 @main
 struct NiHonApp: App {
+    @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     var body: some Scene {
            WindowGroup {
                ContentView()
-                   .frame(minWidth: 500, minHeight: 700) // Imposta la dimensione minima della vista
+                   .frame(minWidth: 500, minHeight: 400) // Imposta la dimensione minima della vista
            }
            .windowStyle(HiddenTitleBarWindowStyle()) // Stile della finestra (opzionale)
        }
@@ -21,10 +22,15 @@ struct NiHonApp: App {
            // Accedi alla finestra principale all'avvio dell'app
            DispatchQueue.main.async {
                if let window = NSApplication.shared.windows.first {
-                   window.setContentSize(NSSize(width: 500, height: 700)) // Imposta dimensioni iniziali della finestra
-                   window.minSize = NSSize(width: 500, height: 700) // Imposta dimensione minima
-                   window.maxSize = NSSize(width: 500, height: 700) // Imposta dimensione massima per bloccare il ridimensionamento
+                   window.setContentSize(NSSize(width: 500, height: 400)) // Imposta dimensioni iniziali della finestra
+                   window.minSize = NSSize(width: 500, height: 400) // Imposta dimensione minima
+                   window.maxSize = NSSize(width: 500, height: 400) // Imposta dimensione massima per bloccare il ridimensionamento
                }
            }
        }
+}
+class AppDelegate: NSObject, NSApplicationDelegate {
+    func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool {
+        return true
+    }
 }

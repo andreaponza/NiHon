@@ -80,16 +80,6 @@
 			path = NiHon;
 			sourceTree = "<group>";
 		};
-		65E777EF2CBFCBBB00ECE8DD /* NiHonTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = NiHonTests;
-			sourceTree = "<group>";
-		};
-		65E777F92CBFCBBB00ECE8DD /* NiHonUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = NiHonUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,8 +115,6 @@
 			isa = PBXGroup;
 			children = (
 				65E777DD2CBFCBB900ECE8DD /* NiHon */,
-				65E777EF2CBFCBBB00ECE8DD /* NiHonTests */,
-				65E777F92CBFCBBB00ECE8DD /* NiHonUITests */,
 				657345652CC155CF00931608 /* NiHonWidget */,
 				657345602CC155CE00931608 /* Frameworks */,
 				65E777DC2CBFCBB900ECE8DD /* Products */,
