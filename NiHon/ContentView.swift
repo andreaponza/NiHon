@@ -48,7 +48,8 @@ struct ContentView: View {
     @State private var userInput: String = "" // Input dell'utente
     @State private var comparisonResult: String = "" // Risultato del confronto
     @State private var inItaliano: String = "" //Traduzione
-    @State private var file: String = "Hiragana"
+    @State private var esercizio = ["Hiragana", "Katakana", "Words"]
+    @State private var file: String = ""
     
     var body: some View {
         VStack {
@@ -78,8 +79,9 @@ struct ContentView: View {
                     .padding()
                 
                 // Mostra la parola originale
-                Text("\(randomWord.original)")
+                Text("\(randomWord.original)".replacingOccurrences(of: "<", with: "\n"))
                     .font(.system(size: 50))
+                    .multilineTextAlignment(.center)
                     .padding()
                 
                 // TextField per inserire il romaji
@@ -95,6 +97,8 @@ struct ContentView: View {
                             comparisonResult = ""
                         }
                     }
+                    
+                //Svela soluzione
                 Button("Mi arrendo") {
                     inItaliano = randomWord.italiano.uppercased()
                 }
@@ -121,9 +125,10 @@ struct ContentView: View {
         }
         .onAppear {
             // Carica il CSV e seleziona una parola casuale quando la vista appare
-            words = CSVParser.loadCSV(from: "Hiragana")
+            file = esercizio.randomElement()!
+            words = CSVParser.loadCSV(from: file)
             randomWord = words.randomElement() // Scegli una parola casuale
         }
+        .containerBackground(.brown.gradient, for: .window)
     }
 }
-

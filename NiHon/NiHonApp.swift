@@ -13,7 +13,7 @@ struct NiHonApp: App {
     var body: some Scene {
            WindowGroup {
                ContentView()
-                   .frame(minWidth: 600, minHeight: 500) // Imposta la dimensione minima della vista
+                   .frame(minWidth: 600, minHeight: 600) // Imposta la dimensione minima della vista
            }
            .windowStyle(HiddenTitleBarWindowStyle()) // Stile della finestra (opzionale)
        }

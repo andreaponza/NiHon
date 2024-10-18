@@ -21,16 +21,16 @@ struct NiHonWidgetEntryView: View {
 
     var body: some View {
         VStack {
-            Text(entry.originale)
+            Text(entry.originale.replacingOccurrences(of: "<", with: "\n"))
                 .font(.system(size: 16))
+                .multilineTextAlignment(.center)
             Text(entry.romaji)
                 .font(.subheadline)
             Text(entry.italiano)
                 .font(.footnote)
         }
         .padding()
-        .containerBackground(for: .widget) {
-        }
+        .containerBackground(.brown.gradient.opacity(0.7), for: .widget)
     }
 }
 
@@ -53,7 +53,7 @@ struct WordProvider: TimelineProvider {
             let entry = WordEntry(date: Date(), originale: randomEntry.0, romaji: randomEntry.1, italiano: randomEntry.2)
             
             // Imposta il widget per aggiornarsi ogni ora
-            let nextUpdateDate = Calendar.current.date(byAdding: .hour, value: 1, to: Date())!
+            let nextUpdateDate = Calendar.current.date(byAdding: .minute, value: 1, to: Date())!
             let timeline = Timeline(entries: [entry], policy: .after(nextUpdateDate))
             completion(timeline)
         } else {
