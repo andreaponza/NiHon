@@ -95,12 +95,16 @@ struct ContentView: View {
                             comparisonResult = ""
                         }
                     }
+                Button("Mi arrendo") {
+                    inItaliano = randomWord.italiano.uppercased()
+                }
+                .padding()
                 
                 // Mostra il risultato del confronto
                 Text(comparisonResult)
                     .foregroundColor(comparisonResult == "Corretto!" ? .green : .red)
                     .padding()
-                Text("In Italiano corrisponde a:")
+                Text("Traduzione:")
                 Text(inItaliano)
             } else {
                 Text("Caricamento...")
