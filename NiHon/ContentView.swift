@@ -84,6 +84,13 @@ struct ContentView: View {
                     .multilineTextAlignment(.center)
                     .padding()
                 
+                // Mostra il risultato del confronto
+                Text(comparisonResult)
+                    .foregroundColor(comparisonResult == "Corretto!" ? .green : .red)
+                    .padding()
+                Text("Traduzione:")
+                Text(inItaliano)
+                
                 // TextField per inserire il romaji
                 TextField("Inserisci la traslitterazione romaji", text: $userInput)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
@@ -104,12 +111,7 @@ struct ContentView: View {
                 }
                 .padding()
                 
-                // Mostra il risultato del confronto
-                Text(comparisonResult)
-                    .foregroundColor(comparisonResult == "Corretto!" ? .green : .red)
-                    .padding()
-                Text("Traduzione:")
-                Text(inItaliano)
+
             } else {
                 Text("Caricamento...")
             }
@@ -130,5 +132,6 @@ struct ContentView: View {
             randomWord = words.randomElement() // Scegli una parola casuale
         }
         .containerBackground(.brown.gradient, for: .window)
+        .textSelection(.enabled)
     }
 }
