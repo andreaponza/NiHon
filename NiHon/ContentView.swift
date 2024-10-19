@@ -78,6 +78,7 @@ struct ContentView: View {
     @State private var userInput: String = ""
     @State private var comparisonResult: String = ""
     @State private var mean: String = ""
+    @State private var romaji: String = ""
     @State private var exercise = ["Hiragana", "Katakana", "Words"]
     @State private var file: String = ""
     
@@ -94,6 +95,7 @@ struct ContentView: View {
                     userInput = ""
                     comparisonResult = ""
                     mean = ""
+                    romaji = ""
                 })
                 Button("Load Local Katakana", action: {
                     words = CSVParser.loadCSV(from: "Katakana")
@@ -102,6 +104,7 @@ struct ContentView: View {
                     userInput = ""
                     comparisonResult = ""
                     mean = ""
+                    romaji = ""
                 })
                 Button("Load Remote Words", action: {
                     CSVParser.loadCSV(from: remoteCSVURL) { fetchedWords in
@@ -112,6 +115,7 @@ struct ContentView: View {
                             userInput = ""
                             comparisonResult = ""
                             mean = ""
+                            romaji = ""
                         }
                     }
                 })
@@ -122,6 +126,7 @@ struct ContentView: View {
                     userInput = ""
                     comparisonResult = ""
                     mean = ""
+                    romaji = ""
                 })
             }
             .padding()
@@ -140,8 +145,8 @@ struct ContentView: View {
                     .foregroundColor(comparisonResult == "Correct!" ? .green : .red)
                     .padding()
 
-                Text("Mean:")
-                Text(mean)
+                Text("Romaji: \(romaji)")
+                Text("Mean: \(mean)")
 
                 TextField("Insert romaji", text: $userInput)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
@@ -149,6 +154,7 @@ struct ContentView: View {
                     .onChange(of: userInput) {
                         if userInput.uppercased() == randomWord.romaji.uppercased() {
                             comparisonResult = "Correct!"
+                            romaji = randomWord.romaji.uppercased()
                             mean = randomWord.mean.uppercased()
                         } else {
                             comparisonResult = ""
@@ -156,6 +162,7 @@ struct ContentView: View {
                     }
 
                 Button("Show solution!") {
+                    romaji = randomWord.romaji.uppercased()
                     mean = randomWord.mean.uppercased()
                 }
                 .padding()
@@ -168,6 +175,7 @@ struct ContentView: View {
                 randomWord = words.randomElement()
                 userInput = ""
                 comparisonResult = ""
+                romaji = ""
                 mean = ""
             }
             .padding()
