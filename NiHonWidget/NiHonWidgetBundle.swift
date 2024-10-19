@@ -18,6 +18,6 @@ struct NiHonWidget: Widget {
             NiHonWidgetEntryView(entry: entry)
         }
         .configurationDisplayName("NiHon Word Widget")
-        .description("Displays a random Japanese word, its romaji, and its Italian translation every hour.")
+        .description("Displays a random Japanese word, its romaji, and its translation every minut.")
     }
 }

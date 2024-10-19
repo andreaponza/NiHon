@@ -1,101 +1,103 @@
-あかるい,Akarui,Bright
-あさ,Asa,Morning
-あした,Ashita,Tomorrow
-あたたかい,Atatakai,Warm
-あつい,Atsui,Hot
-あなた,Anata,You
-あまい,Amai,Sweet
-ありがとうございます,Arigatou gozaimasu,Thank you
-あるく,Aruku,To walk
-いいえ,Iie,No
-いう,Iu,To say
-いそがしい,Isogashii,Busy
-いち,Ichi,One
-いちがつ,Ichigatsu,January
-いもうと,Imouto,Younger sister
-おいしい,Oishii,Delicious / Tasty
-おかあさん,Okaasan,Mother
-おじいさん,Ojiisan,Grandfather
-おじさん,Ojisan,Uncle
-おそい,Osoi,Slow
-おとうさん,Otousan,Father
-おとうと,Otouto,Younger brother
-おにいさん,Oniisan,Older brother
-おにぎり,Onigiri,Rice Ball
-おねえさん,Oneesan,Older sister
-おばあさん,Obaasan,Grandmother
-おばさん,Obasan,Aunt
-おはようございます,Ohayou gozaimasu,Good morning
-おやすみなさい,Oyasuminasai,Goodnight
-おゆ,Oyu,Hot Water
-かく,Kaku,To write
-かなしい,Kanashii,Sad
-かようび,Kayoubi,Tuesday
-からい,Karai,Hot / Spicy
-きく,Kiku,To listen
-きのう,Kinou,Yesterday
-きゅう,Kyuu,Nine
-きょう,Kyou,Today
-きんようび,Kinyoubi,Friday
-くがつ,Kugatsu,September
-くらい,Kurai,Dark
-げつようび,Getsuyoubi,Monday
-ご,Go,Five
-ごがつ,Gogatsu,May
-ごはん,Gohan,Rice / Meal
-ごめんなさい,Gomennasai,Sorry
-こんにちは,Konnichiwa,Good afternoon
-こんばんは,Konbanwa,Good evening
-さかな,Sakana,Fish
-さん,San,Three
-さんがつ,Sangatsu,March
-し / よん,Shi,Four
-しがつ,Shigatsu,April
-しち/なな,Shichi,Seven
-しちがつ,Shichigatsu,July
-じゅう,Juu,Ten
-じゅういちがつ,Juuichigatsu,November
-じゅうがつ,Juugatsu,October
-じゅうにがつ,Juunigatsu,December
-しょっぱい,Shoppai,Salty
-すいようび,Suiyoubi,Wednesday
-すし,Sushi,Sushi
-すっぱい,Suppai,Sour
-すみません,Sumimasen,Excuse me / sorry
-する,Suru,To do
-すわる,Suwaru,To sit
-たかい,Takai,High / Expensive
-たつ,Tatsu,To stand
-たのしい,Tanoshii,Happy
-たべもの,Tabemono,Food
-たべる,Taberu,To eat
-つめたい,Tsumetai,Cold
-どようび,Doyoubi,Saturday
-に,Ni,Two
-にがい,Nigai,Bitter
-にがつ,Nigatsu,February
-にく,Niku,Meat
-にちようび,Nichiyoubi,Sunday
-のみもの,Nomimono,Drinks
-のむ,Nomu,To drink
-はい,Hai,Yes
-はしる,Hashiru,To run
-はち,Hachi,Eight
-はちがつ,Hachigatsu,August
-はなす,Hanasu,To talk / speak
-はやい,Hayai,Fast / Early
-ひくい,Hikui,Low
-ひる,Hiru,Noon
-まずい,Mazui,Awful
-みず,Mizu,Water / Cold Water
-みる,Miru,To see
-もくようび,Mokuyoubi,Thursday
-やさい,Yasai,Vegetable
-やすい,Yasui,Cheap
-ゆうがた,Yuugata,Evening
-よる,Yoru,Night
-ラーメン,Raamen,Noodle Dish
-ろく,Roku,Six
-ろくがつ,Rokugatsu,June
-わたし,Watashi,I / me
-道<みち,Michi,Road
+kanji,hirakata,romaji,mean
+,あかるい,Akarui,Bright
+,あさ,Asa,Morning
+,あした,Ashita,Tomorrow
+,あたたかい,Atatakai,Warm
+,あつい,Atsui,Hot
+,あなた,Anata,You
+,あまい,Amai,Sweet
+,ありがとうございます,Arigatou gozaimasu,Thank you
+,あるく,Aruku,To walk
+,いいえ,Iie,No
+,いう,Iu,To say
+,いそがしい,Isogashii,Busy
+,いち,Ichi,One
+,いちがつ,Ichigatsu,January
+,いもうと,Imouto,Younger sister
+,おいしい,Oishii,Delicious / Tasty
+,おかあさん,Okaasan,Mother
+,おじいさん,Ojiisan,Grandfather
+,おじさん,Ojisan,Uncle
+,おそい,Osoi,Slow
+,おとうさん,Otousan,Father
+,おとうと,Otouto,Younger brother
+,おにいさん,Oniisan,Older brother
+,おにぎり,Onigiri,Rice Ball
+,おねえさん,Oneesan,Older sister
+,おばあさん,Obaasan,Grandmother
+,おばさん,Obasan,Aunt
+,おはようございます,Ohayou gozaimasu,Good morning
+,おやすみなさい,Oyasuminasai,Goodnight
+,おゆ,Oyu,Hot Water
+,かく,Kaku,To write
+,かなしい,Kanashii,Sad
+,かようび,Kayoubi,Tuesday
+,からい,Karai,Hot / Spicy
+,きく,Kiku,To listen
+,きのう,Kinou,Yesterday
+,きゅう,Kyuu,Nine
+,きょう,Kyou,Today
+,きんようび,Kinyoubi,Friday
+,くがつ,Kugatsu,September
+,くらい,Kurai,Dark
+,げつようび,Getsuyoubi,Monday
+,ご,Go,Five
+,ごがつ,Gogatsu,May
+,ごはん,Gohan,Rice / Meal
+,ごめんなさい,Gomennasai,Sorry
+,こんにちは,Konnichiwa,Good afternoon
+,こんばんは,Konbanwa,Good evening
+,さかな,Sakana,Fish
+,さん,San,Three
+,さんがつ,Sangatsu,March
+,し / よん,Shi,Four
+,しがつ,Shigatsu,April
+,しち/なな,Shichi,Seven
+,しちがつ,Shichigatsu,July
+,じゅう,Juu,Ten
+,じゅういちがつ,Juuichigatsu,November
+十月,じゅうがつ,Juugatsu,October
+,じゅうにがつ,Juunigatsu,December
+,しょっぱい,Shoppai,Salty
+,すいようび,Suiyoubi,Wednesday
+,すし,Sushi,Sushi
+,すっぱい,Suppai,Sour
+,すみません,Sumimasen,Excuse me / sorry
+,する,Suru,To do
+,すわる,Suwaru,To sit
+,たかい,Takai,High / Expensive
+,たつ,Tatsu,To stand
+,たのしい,Tanoshii,Happy
+,たべもの,Tabemono,Food
+,たべる,Taberu,To eat
+,つめたい,Tsumetai,Cold
+土曜日,どようび,Doyoubi,Saturday
+,に,Ni,Two
+,にがい,Nigai,Bitter
+,にがつ,Nigatsu,February
+,にく,Niku,Meat
+,にちようび,Nichiyoubi,Sunday
+,のみもの,Nomimono,Drinks
+,のむ,Nomu,To drink
+,はい,Hai,Yes
+,はしる,Hashiru,To run
+,はち,Hachi,Eight
+,はちがつ,Hachigatsu,August
+,はなす,Hanasu,To talk / speak
+,はやい,Hayai,Fast / Early
+,ひくい,Hikui,Low
+,ひる,Hiru,Noon
+,まずい,Mazui,Awful
+,みず,Mizu,Water / Cold Water
+,みる,Miru,To see
+,もくようび,Mokuyoubi,Thursday
+,やさい,Yasai,Vegetable
+,やすい,Yasui,Cheap
+,ゆうがた,Yuugata,Evening
+,よる,Yoru,Night
+,ラーメン,Raamen,Noodle Dish
+,ろく,Roku,Six
+,ろくがつ,Rokugatsu,June
+,わたし,Watashi,I / me
+道,みち,Michi,Road
+豚,ぶた,Buta,Pig

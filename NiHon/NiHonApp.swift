@@ -13,18 +13,18 @@ struct NiHonApp: App {
     var body: some Scene {
            WindowGroup {
                ContentView()
-                   .frame(minWidth: 600, minHeight: 600) // Imposta la dimensione minima della vista
+                   .frame(minWidth: 600, minHeight: 600) // Set min view size
            }
-           .windowStyle(HiddenTitleBarWindowStyle()) // Stile della finestra (opzionale)
+           .windowStyle(HiddenTitleBarWindowStyle()) // Window style
        }
 
        init() {
-           // Accedi alla finestra principale all'avvio dell'app
+           //
            DispatchQueue.main.async {
                if let window = NSApplication.shared.windows.first {
-                   window.setContentSize(NSSize(width: 600, height: 500)) // Imposta dimensioni iniziali della finestra
-                   window.minSize = NSSize(width: 600, height: 500) // Imposta dimensione minima
-                   window.maxSize = NSSize(width: 600, height: 500) // Imposta dimensione massima per bloccare il ridimensionamento
+                   window.setContentSize(NSSize(width: 600, height: 500)) // set window initial size
+                   window.minSize = NSSize(width: 600, height: 500) // set window min size
+                   window.maxSize = NSSize(width: 600, height: 500) // set window max size
                }
            }
        }

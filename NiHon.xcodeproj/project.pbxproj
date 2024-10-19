@@ -51,6 +51,13 @@
 			);
 			target = 6573455E2CC155CE00931608 /* NiHonWidgetExtension */;
 		};
+		658800982CC3990B00A97505 /* Exceptions for "NiHon" folder in "NiHonWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Words.csv,
+			);
+			target = 6573455E2CC155CE00931608 /* NiHonWidgetExtension */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
@@ -76,6 +83,7 @@
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				65D6B0692CC04C340063E1D2 /* Exceptions for "NiHon" folder in "Compile Sources" phase from "NiHon" target */,
+				658800982CC3990B00A97505 /* Exceptions for "NiHon" folder in "NiHonWidgetExtension" target */,
 			);
 			path = NiHon;
 			sourceTree = "<group>";

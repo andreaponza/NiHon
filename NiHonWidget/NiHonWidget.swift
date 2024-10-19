@@ -11,9 +11,10 @@ import Foundation
 
 struct WordEntry: TimelineEntry {
     let date: Date
-    let originale: String
+    let kanji: String
+    let hiraKata: String
     let romaji: String
-    let italiano: String
+    let mean: String
 }
 
 struct NiHonWidgetEntryView: View {
@@ -21,13 +22,23 @@ struct NiHonWidgetEntryView: View {
 
     var body: some View {
         VStack {
-            Text(entry.originale.replacingOccurrences(of: "<", with: "\n"))
-                .font(.system(size: 16))
-                .multilineTextAlignment(.center)
+            if(entry.kanji != ""){
+                Text(entry.kanji)
+                    .font(.system(size: 25))
+                    .multilineTextAlignment(.center)
+                Text(entry.hiraKata)
+                    .font(.system(size: 18))
+                    .multilineTextAlignment(.center)
+            } else {
+                Text(entry.hiraKata)
+                    .font(.system(size: 25))
+            }
+            
             Text(entry.romaji)
                 .font(.subheadline)
-            Text(entry.italiano)
-                .font(.footnote)
+            Text(entry.mean)
+                .font(.subheadline)
+        
         }
         .padding()
         .containerBackground(.brown.gradient.opacity(0.7), for: .widget)
@@ -36,36 +47,36 @@ struct NiHonWidgetEntryView: View {
 
 struct WordProvider: TimelineProvider {
     func placeholder(in context: Context) -> WordEntry {
-        WordEntry(date: Date(), originale: "こんにちは", romaji: "Konnichiwa", italiano: "Ciao")
+        WordEntry(date: Date(), kanji: "", hiraKata: "こんにちは", romaji: "Konnichiwa", mean: "Ciao")
     }
 
     func getSnapshot(in context: Context, completion: @escaping (WordEntry) -> Void) {
-        let entry = WordEntry(date: Date(), originale: "こんにちは", romaji: "Konnichiwa", italiano: "Ciao")
+        let entry = WordEntry(date: Date(), kanji: "", hiraKata: "こんにちは", romaji: "Konnichiwa", mean: "Ciao")
         completion(entry)
     }
 
     func getTimeline(in context: Context, completion: @escaping (Timeline<WordEntry>) -> Void) {
-        // Carica le parole dal file CSV locale
-        let words = loadWordsFromCSV()
+        // Load words from CSV
+        let words = loadWordsFromCSV().dropFirst()
 
-        // Seleziona una parola casuale
+        // Select casual word
         if let randomEntry = words.randomElement() {
-            let entry = WordEntry(date: Date(), originale: randomEntry.0, romaji: randomEntry.1, italiano: randomEntry.2)
+            let entry = WordEntry(date: Date(), kanji: randomEntry.0, hiraKata: randomEntry.1, romaji: randomEntry.2, mean: randomEntry.3)
             
-            // Imposta il widget per aggiornarsi ogni ora
+            // Set widget update every 1 minute
             let nextUpdateDate = Calendar.current.date(byAdding: .minute, value: 1, to: Date())!
             let timeline = Timeline(entries: [entry], policy: .after(nextUpdateDate))
             completion(timeline)
         } else {
-            // In caso di errore, mostra un fallback
-            let fallbackEntry = WordEntry(date: Date(), originale: "Errore", romaji: "Errore", italiano: "Errore")
+            // error loading file
+            let fallbackEntry = WordEntry(date: Date(), kanji: "Error", hiraKata: "Error", romaji: "Error", mean: "Error")
             let timeline = Timeline(entries: [fallbackEntry], policy: .atEnd)
             completion(timeline)
         }
     }
 
-    // Funzione per caricare il CSV locale
-    func loadWordsFromCSV() -> [(String, String, String)] {
+    // CVS parser
+    func loadWordsFromCSV() -> [(String, String, String, String)] {
         guard let filePath = Bundle.main.path(forResource: "Words", ofType: "csv") else {
             return []
         }
@@ -74,8 +85,8 @@ struct WordProvider: TimelineProvider {
             let content = try String(contentsOfFile: filePath)
             let rows = content.components(separatedBy: "\n").map { $0.components(separatedBy: ",") }
             let words = rows.compactMap { row in
-                if row.count == 3 {
-                    return (row[0], row[1], row[2])
+                if row.count == 4 {
+                    return (row[0], row[1], row[2], row[3])
                 } else {
                     return nil
                 }
