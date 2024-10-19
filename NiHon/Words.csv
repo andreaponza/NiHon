@@ -31,33 +31,33 @@ kanji,hirakata,romaji,mean
 ,おゆ,Oyu,Hot Water
 ,かく,Kaku,To write
 ,かなしい,Kanashii,Sad
-,かようび,Kayoubi,Tuesday
+火曜日,かようび,Kayoubi,Tuesday
 ,からい,Karai,Hot / Spicy
 ,きく,Kiku,To listen
 ,きのう,Kinou,Yesterday
 ,きゅう,Kyuu,Nine
 ,きょう,Kyou,Today
-,きんようび,Kinyoubi,Friday
-,くがつ,Kugatsu,September
+金曜日,きんようび,Kinyoubi,Friday
+九月,くがつ,Kugatsu,September
 ,くらい,Kurai,Dark
-,げつようび,Getsuyoubi,Monday
-,ご,Go,Five
-,ごがつ,Gogatsu,May
+月曜日,げつようび,Getsuyoubi,Monday
+五,ご,Go,Five
+五月,ごがつ,Gogatsu,May
 ,ごはん,Gohan,Rice / Meal
 ,ごめんなさい,Gomennasai,Sorry
 ,こんにちは,Konnichiwa,Good afternoon
 ,こんばんは,Konbanwa,Good evening
 ,さかな,Sakana,Fish
-,さん,San,Three
-,さんがつ,Sangatsu,March
-,し / よん,Shi,Four
-,しがつ,Shigatsu,April
-,しち/なな,Shichi,Seven
-,しちがつ,Shichigatsu,July
-,じゅう,Juu,Ten
-,じゅういちがつ,Juuichigatsu,November
+三,さん,San,Three
+三月,さんがつ,Sangatsu,March
+四,し / よん,Shi/Yon,Four
+四月,しがつ,Shigatsu,April
+七,しち/なな,Shichi,Seven
+七月,しちがつ,Shichigatsu,July
+十,じゅう,Juu,Ten
+十一月,じゅういちがつ,Juuichigatsu,November
 十月,じゅうがつ,Juugatsu,October
-,じゅうにがつ,Juunigatsu,December
+十二月,じゅうにがつ,Juunigatsu,December
 ,しょっぱい,Shoppai,Salty
 ,すいようび,Suiyoubi,Wednesday
 ,すし,Sushi,Sushi
@@ -72,7 +72,7 @@ kanji,hirakata,romaji,mean
 ,たべる,Taberu,To eat
 ,つめたい,Tsumetai,Cold
 土曜日,どようび,Doyoubi,Saturday
-,に,Ni,Two
+二,に,Ni,Two
 ,にがい,Nigai,Bitter
 ,にがつ,Nigatsu,February
 ,にく,Niku,Meat
@@ -90,14 +90,16 @@ kanji,hirakata,romaji,mean
 ,まずい,Mazui,Awful
 ,みず,Mizu,Water / Cold Water
 ,みる,Miru,To see
-,もくようび,Mokuyoubi,Thursday
+木曜日,もくようび,Mokuyoubi,Thursday
 ,やさい,Yasai,Vegetable
 ,やすい,Yasui,Cheap
 ,ゆうがた,Yuugata,Evening
 ,よる,Yoru,Night
 ,ラーメン,Raamen,Noodle Dish
-,ろく,Roku,Six
-,ろくがつ,Rokugatsu,June
-,わたし,Watashi,I / me
+六,ろく,Roku,Six
+六月,ろくがつ,Rokugatsu,June
+私,わたし,Watashi,I / me
 道,みち,Michi,Road
 豚,ぶた,Buta,Pig
+日本,にほん,Nihon,Japan
+東京,とうきょう,Toukyou,Tokyo
