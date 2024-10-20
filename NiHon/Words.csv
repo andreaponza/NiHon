@@ -1,6 +1,7 @@
 kanji,hirakata,romaji,mean
 ,あかるい,Akarui,Bright
 ,あさ,Asa,Morning
+明日,あした,Ashita,Tomorrow
 ,あした,Ashita,Tomorrow
 ,あたたかい,Atatakai,Warm
 ,あつい,Atsui,Hot
@@ -13,7 +14,9 @@ kanji,hirakata,romaji,mean
 ,いそがしい,Isogashii,Busy
 一,いち,Ichi,One
 一月,いちがつ,Ichigatsu,January
+今,いま,Ima,Now
 ,いもうと,Imouto,Younger sister
+,えいが,Eiga,Movie
 ,おいしい,Oishii,Delicious / Tasty
 ,おかあさん,Okaasan,Mother
 ,おじいさん,Ojiisan,Grandfather
@@ -27,16 +30,19 @@ kanji,hirakata,romaji,mean
 ,おばあさん,Obaasan,Grandmother
 ,おばさん,Obasan,Aunt
 ,おはようございます,Ohayou gozaimasu,Good morning
+,おもしろい,Omoshiroi,Funny
 ,おやすみなさい,Oyasuminasai,Goodnight
 ,おゆ,Oyu,Hot Water
 ,かく,Kaku,To write
 ,かなしい,Kanashii,Sad
+金,かね,Kane,Money 💰
 火曜日,かようび,Kayoubi,Tuesday
 ,からい,Karai,Hot / Spicy
+,ききます,Kikimasu,To listen
 ,きく,Kiku,To listen
 ,きのう,Kinou,Yesterday
 ,きゅう,Kyuu,Nine
-,きょう,Kyou,Today
+今日,きよう,Kyou ,Today
 金曜日,きんようび,Kinyoubi,Friday
 九月,くがつ,Kugatsu,September
 ,くらい,Kurai,Dark
@@ -54,54 +60,62 @@ kanji,hirakata,romaji,mean
 四月,しがつ,Shigatsu,April
 七,しち/なな,Shichi,Seven
 七月,しちがつ,Shichigatsu,July
+,します,Shimasu,To play
 十,じゅう,Juu,Ten
 十一月,じゅういちがつ,Juuichigatsu,November
 十月,じゅうがつ,Juugatsu,October
 十二月,じゅうにがつ,Juunigatsu,December
 ,しょっぱい,Shoppai,Salty
-,すいようび,Suiyoubi,Wednesday
+水曜日,すいようび,Suiyoubi,Wednesday
 ,すし,Sushi,Sushi
 ,すっぱい,Suppai,Sour
 ,すみません,Sumimasen,Excuse me / sorry
 ,する,Suru,To do
 ,すわる,Suwaru,To sit
 ,たかい,Takai,High / Expensive
+たこ焼き,たこやき,Takoyaki,ball-shaped snack 🐙
 ,たつ,Tatsu,To stand
 ,たのしい,Tanoshii,Happy
 ,たべもの,Tabemono,Food
 ,たべる,Taberu,To eat
+卵焼き/玉子焼き,たまごやき,Tamagoyaki,Grilled egg 🍳
+土,つち,Tsuchi,Ground
 ,つめたい,Tsumetai,Cold
+東京,とうきょう,Toukyou,Tokyo
+,ときどき,Tokidoki,Sometimes
 土曜日,どようび,Doyoubi,Saturday
 二,に,Ni,Two
 ,にがい,Nigai,Bitter
 ,にがつ,Nigatsu,February
 ,にく,Niku,Meat
 ,にちようび,Nichiyoubi,Sunday
+日本,にほん,Nihon,Japan
 ,のみもの,Nomimono,Drinks
 ,のむ,Nomu,To drink
 ,はい,Hai,Yes
 ,はしる,Hashiru,To run
+,バスケットボール,Basukettobooru,Basketball
 ,はち,Hachi,Eight
 ,はちがつ,Hachigatsu,August
 ,はなす,Hanasu,To talk / speak
 ,はやい,Hayai,Fast / Early
+火,ひ,Hi,Fire 🔥
+日,ひ,Hi,Sun ☀️
 ,ひくい,Hikui,Low
 ,ひる,Hiru,Noon
+豚,ぶた,Buta,Pig
 ,まずい,Mazui,Awful
 水,みず,Mizu,Water / Cold Water
+道,みち,Michi,Road
+見ます,みます,Mimasu,Watch
 ,みる,Miru,To see
 木曜日,もくようび,Mokuyoubi,Thursday
 ,やさい,Yasai,Vegetable
 ,やすい,Yasui,Cheap
 ,ゆうがた,Yuugata,Evening
+,よく,Yoku,Often
 ,よる,Yoru,Night
 ,ラーメン,Raamen,Noodle Dish
 六,ろく,Roku,Six
 六月,ろくがつ,Rokugatsu,June
 私,わたし,Watashi,I / me
-道,みち,Michi,Road
-豚,ぶた,Buta,Pig
-日本,にほん,Nihon,Japan
-東京,とうきょう,Toukyou,Tokyo
-たこ焼き,たこやき,Takoyaki,ball-shaped snack 🐙
-卵焼き/玉子焼き,たまごやき,Tamagoyaki,Grilled egg 🍳

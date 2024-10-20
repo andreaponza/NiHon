@@ -1,4 +1,21 @@
 import SwiftUI
+import AVFoundation
+
+func readText(_ testo: String) {
+    let synthesizer = AVSpeechSynthesizer()
+    let utterance = AVSpeechUtterance(string: testo)
+    
+    // Imposta la lingua giapponese
+    utterance.voice = AVSpeechSynthesisVoice(language: "ja-JP")
+    
+    // Configura la velocità e il tono della voce
+    utterance.rate = AVSpeechUtteranceDefaultSpeechRate
+    utterance.pitchMultiplier = 1.0
+    
+    // Avvia la sintesi vocale
+    synthesizer.speak(utterance)
+}
+
 
 struct Word {
     var kanji: String // Word in kanji
@@ -135,19 +152,19 @@ struct ContentView: View {
                 Text(file)
                     .font(.headline)
                     .padding()
-
+                
                 Text("\(randomWord.kanji)\n\(randomWord.hiraKata)")
                     .font(.system(size: 50))
                     .multilineTextAlignment(.center)
                     .padding()
-
+                
                 Text(comparisonResult)
                     .foregroundColor(comparisonResult == "Correct!" ? .green : .red)
                     .padding()
-
+                
                 Text("Romaji: \(romaji)")
                 Text("Mean: \(mean)")
-
+                
                 TextField("Insert romaji", text: $userInput)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                     .padding()
@@ -160,25 +177,31 @@ struct ContentView: View {
                             comparisonResult = ""
                         }
                     }
-
-                Button("Show solution!") {
-                    romaji = randomWord.romaji.uppercased()
-                    mean = randomWord.mean.uppercased()
+                HStack{
+                    Button("🔊"){
+                        readText(randomWord.hiraKata)
+                    }
+                    
+                    
+                    Button("Show solution!") {
+                        romaji = randomWord.romaji.uppercased()
+                        mean = randomWord.mean.uppercased()
+                    }
+                    .padding()
+                }
+                
+                } else {
+                    Text("Loading...")
+                }
+                
+                Button("Next word") {
+                    randomWord = words.randomElement()
+                    userInput = ""
+                    comparisonResult = ""
+                    romaji = ""
+                    mean = ""
                 }
                 .padding()
-
-            } else {
-                Text("Loading...")
-            }
-
-            Button("Next word") {
-                randomWord = words.randomElement()
-                userInput = ""
-                comparisonResult = ""
-                romaji = ""
-                mean = ""
-            }
-            .padding()
         }
         .onAppear {
             // Load a random local file initially
