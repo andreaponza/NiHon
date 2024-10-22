@@ -105,7 +105,7 @@ struct ContentView: View {
         VStack {
             // Menu for choosing between local and remote files
             Menu("Choose Source") {
-                Button("Load Local Hiragana", action: {
+                Button("Load Hiragana", action: {
                     words = CSVParser.loadCSV(from: "Hiragana")
                     randomWord = words.randomElement()
                     file = "Hiragana"
@@ -114,7 +114,7 @@ struct ContentView: View {
                     mean = ""
                     romaji = ""
                 })
-                Button("Load Local Katakana", action: {
+                Button("Load Katakana", action: {
                     words = CSVParser.loadCSV(from: "Katakana")
                     randomWord = words.randomElement()
                     file = "Katakana"
@@ -136,7 +136,7 @@ struct ContentView: View {
                         }
                     }
                 })
-                Button("Load Local Words", action: {
+                Button("Load Words", action: {
                     words = CSVParser.loadCSV(from: "Words")
                     randomWord = words.randomElement()
                     file = "Words"

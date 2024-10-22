@@ -97,7 +97,7 @@ struct WordProvider: TimelineProvider {
 
     // Parse CSV content
     func parseCSV(content: String) -> [(String, String, String, String)] {
-        let rows = content.components(separatedBy: "\n").map { $0.components(separatedBy: ",") }
+        let rows = content.components(separatedBy: "\n").map { $0.components(separatedBy: ";") }
         let words = rows.compactMap { row in
             if row.count == 4 {
                 return (row[0], row[1], row[2], row[3])
