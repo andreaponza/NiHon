@@ -50,7 +50,7 @@ class CSVParser {
             let rows = csvData.components(separatedBy: "\n")
             
             for row in rows.dropFirst() {
-                let columns = row.components(separatedBy: ",")
+                let columns = row.components(separatedBy: ";")
                 if columns.count == 4 {
                     let word = Word(kanji: columns[0], hiraKata: columns[1], romaji: columns[2], mean: columns[3])
                     words.append(word)
@@ -75,7 +75,7 @@ class CSVParser {
             let rows = csvData.components(separatedBy: "\n")
             
             for row in rows.dropFirst() {
-                let columns = row.components(separatedBy: ",")
+                let columns = row.components(separatedBy: ";")
                 if columns.count == 4 {
                     let word = Word(kanji: columns[0], hiraKata: columns[1], romaji: columns[2], mean: columns[3])
                     words.append(word)
