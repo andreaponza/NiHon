@@ -35,6 +35,7 @@ kanji;hirakata;romaji;mean
 ;いいえ;Iie;No
 今;いま;Ima;Now
 ;いもうと;Imouto;Younger sister
+犬;いぬ;Inu;Dog 🐕
 ;いそがしい;Isogashii;Busy
 ;いう;Iu;To say
 十;じゅう;Juu;Ten
@@ -77,8 +78,11 @@ kanji;hirakata;romaji;mean
 ;ニュース;Niyuusu;News
 ;のみもの;Nomimono;Drinks
 ;のむ;Nomu;To drink
+お箸;おはし;Oashi;Sticks 🥢
 ;おばあさん;Obaasan;Grandmother
 ;おばさん;Obasan;Aunt
+お茶;おちゃ;Ocha;Tea 🍵
+;おげんきですか;Ogenkidesuka;How are you?
 ;おはようございます;Ohayou gozaimasu;Good morning
 ;おいしい;Oishii;Delicious / Tasty
 ;おじいさん;Ojiisan;Grandfather
@@ -88,6 +92,7 @@ kanji;hirakata;romaji;mean
 ;おねえさん;Oneesan;Older sister
 ;おにぎり;Onigiri;Rice Ball
 ;おにいさん;Oniisan;Older brother
+お酒;おさけ;Osake;Sake 🍶
 ;おそい;Osoi;Slow
 ;おとうさん;Otousan;Father
 ;おとうと;Otouto;Younger brother
@@ -106,7 +111,7 @@ kanji;hirakata;romaji;mean
 四月;しがつ;Shigatsu;April
 ;します;Shimasu;Play
 静か;しずか;Shizuka;Quiet
-;しょっぱい;Shoppai;Salty
+;しょっぱい;Shoppai;Salty 🧂
 空;そら;Sora;Sky (That you can see)
 水曜日;すいようび;Suiyoubi;Wednesday
 ;すみません;Sumimasen;Excuse me / sorry
@@ -117,12 +122,14 @@ kanji;hirakata;romaji;mean
 ;たべもの;Tabemono;Food
 ;たべる;Taberu;To eat
 ;たかい;Takai;High / Expensive
-たこ焼き;たこやき;Takoyaki;ball-shaped snack 🐙
+;たこ;Tako;Octopus 🐙
+たこ焼き;たこやき;Takoyaki;Ball-shaped snack 🐙
 卵焼き/玉子焼き;たまごやき;Tamagoyaki;Grilled egg 🍳
 ;たのしい;Tanoshii;Happy
 ;たつ;Tatsu;To stand
 天;てん;Ten;Sky (Spiritual)
 天気;てんき;Tenki;Weather
+天気はどうですか;てんきはどうですか;Tenkiwadoudesuka;What’s the weather like?
 ;ときどき;Tokidoki;Sometimes
 東京;とうきょう;Toukyou;Tokyo
 土;つち;Tsuchi;Ground
