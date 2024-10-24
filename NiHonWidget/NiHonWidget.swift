@@ -17,7 +17,7 @@ struct NiHonWidgetEntryView: View {
         VStack {
             if(entry.kanji != "") {
                 Text(entry.kanji)
-                    .font(.system(size: 25))
+                    .font(.system(size: 30))
                     .multilineTextAlignment(.center)
                 Text(entry.hiraKata)
                     .font(.system(size: 18))
