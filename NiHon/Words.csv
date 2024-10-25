@@ -2,10 +2,12 @@ kanji;hirakata;romaji;mean
 赤;あか;Aka;Red 🟥
 赤ちゃん;赤ちゃん;Akachan;Bebè 👶
 ;あかるい;Akarui;Bright
-;あまい;Amai;Sweet
+開ける;あける;Akeru;To open
+甘い;あまい;Amai;Sweet
 雨;あめ;Ame;Rain ☔️
 ;あなた;Anata;You
 青;あお;Ao;Blue 🟦
+洗う;あらう;Arau;To wash
 ;ありがとうございます;Arigatou gozaimasu;Thank you
 ;あるく;Aruku;To walk
 ;あさ;Asa;Morning
@@ -14,6 +16,7 @@ kanji;hirakata;romaji;mean
 ;あつい;Atsui;Hot
 ;バスケットボール;Basukettobooru;Basketball
 豚;ぶた;Buta;Pig
+;ドア;Doa;Door 🚪
 土曜日;どようび;Doyoubi;Saturday
 映画;えいが;Eiga;Movie 🎥
 月曜日;げつようび;Getsuyoubi;Monday
@@ -31,21 +34,24 @@ kanji;hirakata;romaji;mean
 火;ひ;Hi;Fire 🔥
 日;ひ;Hi;Sun ☀️
 ;ひくい;Hikui;Low
-;ひる;Hiru;Noon
+昼;ひる;Hiru;Noon
 本棚;ほんだな;Hondana;Bookshelf
 一;いち;Ichi;One
 一月;いちがつ;Ichigatsu;January
 ;いいえ;Iie;No
+;イカ;Ika;Squid 🦑
+行く;いる;Iku;To go
 今;いま;Ima;Now
 妹;いもうと;Imouto;Younger sister
 犬;いぬ;Inu;Dog 🐕
+入;いり;Iri;To enter
 ;いそがしい;Isogashii;Busy
-;いう;Iu;To say
+言う;いう;Iu;To say
 十;じゅう;Juu;Ten
 十月;じゅうがつ;Juugatsu;October
 十一月;じゅういちがつ;Juuichigatsu;November
 十二月;じゅうにがつ;Juunigatsu;December
-;かく;Kaku;To write
+書く;かく;Kaku;To write
 雷;かみなり;Kaminari;Storm ⛈️
 ;かなしい;Kanashii;Sad
 金;かね;Kane;Money 💰
@@ -56,7 +62,6 @@ kanji;hirakata;romaji;mean
 火曜日;かようび;Kayoubi;Tuesday
 ;ケーキ;Keeki;Cake 🍰
 木;き;Ki;Tree 🌳
-聞きます;ききます;Kikimasu;Listen
 聞く;きく;Kiku;To listen
 昨日;きのう;Kinou;Yesterday
 金曜日;きんようび;Kinyoubi;Friday
@@ -71,18 +76,20 @@ kanji;hirakata;romaji;mean
 ;くもり;Kumori;Cloud ☁️
 ;くらい;Kurai;Dark
 黒;くろ;Kuro;Black ⬛️
+来る;くる;Kuru;To come
 空気;くうき;Kuuki;Air
 今日;きよう;Kyou ;Today
 九;きゅう;Kyuu;Nine
+;マグロ;Maguro;Tuna 🐟
 ;またあした!;Mataashita;See you tomorrow!
 ;まずい;Mazui;Awful
 道;みち;Michi;Road
 緑;みどり;Midori;Green 🟩
-見ます;みます;Mimasu;Watch
-;みる;Miru;To see
+見る;みる;Miru;To watch
 水;みず;Mizu;Water / Cold Water
 木曜日;もくようび;Mokuyoubi;Thursday
 猫;ねこ;Neko;Cat 🐈
+寝る;ねる;Neru;To go to bed
 二;に;Ni;Two
 日曜日;にちようび;Nichiyoubi;Sunday
 ;にがい;Nigai;Bitter
@@ -91,7 +98,7 @@ kanji;hirakata;romaji;mean
 ;にく;Niku;Meat
 ;ニュース;Niyuusu;News
 ;のみもの;Nomimono;Drinks
-;のむ;Nomu;To drink
+飲む;のむ;Nomu;To drink
 お箸;おはし;Oashi;Sticks 🥢
 ;おばあさん;Obaasan;Grandmother
 ;おばさん;Obasan;Aunt
@@ -102,9 +109,11 @@ kanji;hirakata;romaji;mean
 ;おじいさん;Ojiisan;Grandfather
 ;おじさん;Ojisan;Uncle
 お母さん;おかあさん;Okaasan;Mother
+起きる;おきる;Okiru;To wake up from bed
 ;おもしろい;Omoshiroi;Funny
 お姉さん;おねえさん;Oneesan;Older sister
 お願いします;おねがいします;Onegaishimasu;Please (Untangible things)
+音楽;おんがく;Ongaku;Music 🎶
 ;おにぎり;Onigiri;Rice Ball 🍙
 お兄さん;おにいさん;Oniisan;Older brother
 お酒;おさけ;Osake;Sake 🍶
@@ -113,9 +122,11 @@ kanji;hirakata;romaji;mean
 弟;おとうと;Otouto;Younger brother
 ;おやすみなさい;Oyasuminasai;Goodnight
 ;おゆ;Oyu;Hot Water
+;ピザ;Piza;Pizza 🍕
 ;ラーメン;Raamen;Noodle Dish
 六;ろく;Roku;Six
 六月;ろくがつ;Rokugatsu;June
+;サーモン;Saamon;Salmon
 魚;さかな;Sakana;Fish
 三;さん;San;Three
 三月;さんがつ;Sangatsu;March
@@ -126,6 +137,7 @@ kanji;hirakata;romaji;mean
 七月;しちがつ;Shichigatsu;July
 四月;しがつ;Shigatsu;April
 ;します;Shimasu;Play
+閉める;しめる;Shimeru;To close
 白;しろ;Shiro;White ◻️
 静か;しずか;Shizuka;Quiet
 ;しょっぱい;Shoppai;Salty 🧂
@@ -135,9 +147,9 @@ kanji;hirakata;romaji;mean
 ;すっぱい;Suppai;Sour
 ;する;Suru;To do
 寿司;すし;Sushi;Sushi
-;すわる;Suwaru;To sit
+座る;すわる;Suwaru;To sit
 ;たべもの;Tabemono;Food
-;たべる;Taberu;To eat
+食べる;たべる;Taberu;To eat
 ;たかい;Takai;High / Expensive
 蛸;たこ;Tako;Octopus 🐙
 たこ焼き;たこやき;Takoyaki;Ball-shaped snack 🐙
@@ -150,15 +162,18 @@ kanji;hirakata;romaji;mean
 天気はどうですか;てんきはどうですか;Tenkiwadoudesuka;What’s the weather like?
 時計;とけい;Tokei ;Watch ⌚️
 ;ときどき;Tokidoki;Sometimes
+;とても;Totemo;Very
 東京;とうきょう;Toukyou;Tokyo
 土;つち;Tsuchi;Ground
 月;つき;Tsuki;Moon 🌙
 ;つめたい;Tsumetai;Cold
+分かる;わかる;Wakaru;To understand
 私;わたし;Watashi;I / me
 野菜;やさい;Yasai;Vegetable
 ;やさしい;Yasashii;Nice
 ;やすい;Yasui;Cheap
 ;よく;Yoku;Often
+読む;よむ;Yomu;To read
 ;よる;Yoru;Night
 雪;ゆき;Yuki;Snow ❄️
 ;ゆうがた;Yuugata;Evening
