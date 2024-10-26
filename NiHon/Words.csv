@@ -16,9 +16,14 @@ kanji;hirakata;romaji;mean
 ;あつい;Atsui;Hot
 ;バスケットボール;Basukettobooru;Basketball
 豚;ぶた;Buta;Pig
+;だれ;Dare;Who?
 ;ドア;Doa;Door 🚪
+;どこ;Doko;Where?
+;どう;Dou;How?
+;どうして;Doushite;Why?
 土曜日;どようび;Doyoubi;Saturday
 映画;えいが;Eiga;Movie 🎥
+駅;えき;Eki;Station 🚉
 月曜日;げつようび;Getsuyoubi;Monday
 五;ご;Go;Five
 五月;ごがつ;Gogatsu;May
@@ -46,6 +51,7 @@ kanji;hirakata;romaji;mean
 犬;いぬ;Inu;Dog 🐕
 入;いり;Iri;To enter
 ;いそがしい;Isogashii;Busy
+;いつ;Itsu;When?
 言う;いう;Iu;To say
 十;じゅう;Juu;Ten
 十月;じゅうがつ;Juugatsu;October
@@ -88,8 +94,12 @@ kanji;hirakata;romaji;mean
 見る;みる;Miru;To watch
 水;みず;Mizu;Water / Cold Water
 木曜日;もくようび;Mokuyoubi;Thursday
+何;なん/なに;Nan;What?
+;なんで;Nande;Why?
+;なぜ;Nase;Why?
 猫;ねこ;Neko;Cat 🐈
 寝る;ねる;Neru;To go to bed
+;ねずみ;Nezumi;Mouse 🐁
 二;に;Ni;Two
 日曜日;にちようび;Nichiyoubi;Sunday
 ;にがい;Nigai;Bitter
@@ -122,6 +132,7 @@ kanji;hirakata;romaji;mean
 弟;おとうと;Otouto;Younger brother
 ;おやすみなさい;Oyasuminasai;Goodnight
 ;おゆ;Oyu;Hot Water
+;パーティー ;Paateii;Party 🎉
 ;ピザ;Piza;Pizza 🍕
 ;ラーメン;Raamen;Noodle Dish
 六;ろく;Roku;Six
