@@ -19,7 +19,11 @@ kanji;hirakata;romaji;mean
 ;だれ;Dare;Who?
 ;ドア;Doa;Door 🚪
 ;どこ;Doko;Where?
+;どんな;Donna;What kind of?
+;どのくらい;Donokurai;How long/much?
+;どれ;Dore;Witch?
 ;どう;Dou;How?
+どう違いますか;どうちがいますか;Douchigaimasuka;How is different?
 ;どうして;Doushite;Why?
 土曜日;どようび;Doyoubi;Saturday
 映画;えいが;Eiga;Movie 🎥
@@ -43,9 +47,12 @@ kanji;hirakata;romaji;mean
 本棚;ほんだな;Hondana;Bookshelf
 一;いち;Ichi;One
 一月;いちがつ;Ichigatsu;January
+家;いえ;Ie;House 🏠
 ;いいえ;Iie;No
 ;イカ;Ika;Squid 🦑
 行く;いる;Iku;To go
+;いくら;Ikura;How much?
+;いくず;Ikuzu;How many?
 今;いま;Ima;Now
 妹;いもうと;Imouto;Younger sister
 犬;いぬ;Inu;Dog 🐕
@@ -57,6 +64,7 @@ kanji;hirakata;romaji;mean
 十月;じゅうがつ;Juugatsu;October
 十一月;じゅういちがつ;Juuichigatsu;November
 十二月;じゅうにがつ;Juunigatsu;December
+家具;かぐ;Kagu;Furniture
 書く;かく;Kaku;To write
 雷;かみなり;Kaminari;Storm ⛈️
 ;かなしい;Kanashii;Sad
@@ -72,11 +80,13 @@ kanji;hirakata;romaji;mean
 昨日;きのう;Kinou;Yesterday
 金曜日;きんようび;Kinyoubi;Friday
 狐;きつね;Kitzune;Fox 🦊
+子ども;こども;Kodomo;Child 👦
 ;こんばんは;Konbanwa;Good evening
 ;こんにちは;Konnichiwa;Good afternoon
 ;この;Kono;This (Near speaker adjective)
 ;コーヒー;Koohii;Coffe ☕️
 ;これ;Kore;This (Near speaker pronoums)
+公園;こうえん;Kouen;Park　
 ;ください;Kudasai;Please (Tangible things)
 九月;くがつ;Kugatsu;September
 ;くもり;Kumori;Cloud ☁️
@@ -94,8 +104,10 @@ kanji;hirakata;romaji;mean
 見る;みる;Miru;To watch
 水;みず;Mizu;Water / Cold Water
 木曜日;もくようび;Mokuyoubi;Thursday
+;もしもし;Moshimoshi;Hello (on the phone)
 何;なん/なに;Nan;What?
 ;なんで;Nande;Why?
+何時;なんじ;Nanji;What time?
 ;なぜ;Nase;Why?
 猫;ねこ;Neko;Cat 🐈
 寝る;ねる;Neru;To go to bed
@@ -120,6 +132,7 @@ kanji;hirakata;romaji;mean
 ;おじさん;Ojisan;Uncle
 お母さん;おかあさん;Okaasan;Mother
 起きる;おきる;Okiru;To wake up from bed
+贈り物;おくりもの;Okurimono;Gift 🎁
 ;おもしろい;Omoshiroi;Funny
 お姉さん;おねえさん;Oneesan;Older sister
 お願いします;おねがいします;Onegaishimasu;Please (Untangible things)
@@ -171,6 +184,7 @@ kanji;hirakata;romaji;mean
 天;てん;Ten;Sky (Spiritual)
 天気;てんき;Tenki;Weather
 天気はどうですか;てんきはどうですか;Tenkiwadoudesuka;What’s the weather like?
+;テレビ;Terebi;TV 📺
 時計;とけい;Tokei ;Watch ⌚️
 ;ときどき;Tokidoki;Sometimes
 ;とても;Totemo;Very
@@ -178,8 +192,10 @@ kanji;hirakata;romaji;mean
 土;つち;Tsuchi;Ground
 月;つき;Tsuki;Moon 🌙
 ;つめたい;Tsumetai;Cold
+家;うち;Uchi;Home　🏠
 分かる;わかる;Wakaru;To understand
 私;わたし;Watashi;I / me
+山;やま;Yama;Mountain 🏔️
 野菜;やさい;Yasai;Vegetable
 ;やさしい;Yasashii;Nice
 ;やすい;Yasui;Cheap
