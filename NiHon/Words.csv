@@ -42,6 +42,7 @@ kanji;hirakata;romaji;mean
 晴れ;はれ;Hare;Sun ☀️
 ;はしる;Hashiru;To run
 ;はやい;Hayai;Fast / Early
+恥ずかしい;はずかしい;Hazukashii;Embarassed
 火;ひ;Hi;Fire 🔥
 日;ひ;Hi;Sun ☀️
 ;ひくい;Hikui;Low
@@ -71,6 +72,7 @@ kanji;hirakata;romaji;mean
 書く;かく;Kaku;To write
 雷;かみなり;Kaminari;Storm ⛈️
 ;かなしい;Kanashii;Sad
+悲しい;かなしい;Kanashii;Sad
 金;かね;Kane;Money 💰
 ;カップ;Kappu;Cup 
 ;からい;Karai;Hot / Spicy
@@ -80,10 +82,12 @@ kanji;hirakata;romaji;mean
 ;ケーキ;Keeki;Cake 🍰
 木;き;Ki;Tree 🌳
 聞く;きく;Kiku;To listen
+緊張している;きんちょうしている;Kinchoushiteiru;Nervous
 昨日;きのう;Kinou;Yesterday
 金曜日;きんようび;Kinyoubi;Friday
 狐;きつね;Kitzune;Fox 🦊
 子ども;こども;Kodomo;Child 👦
+恋をしている;こいをしている;Koioishiteru;In love
 ;こんばんは;Konbanwa;Good evening
 ;こんにちは;Konnichiwa;Good afternoon
 ;この;Kono;This (Near speaker adjective)
@@ -96,10 +100,12 @@ kanji;hirakata;romaji;mean
 ;くらい;Kurai;Dark
 黒;くろ;Kuro;Black ⬛️
 来る;くる;Kuru;To come
+車;くるま;Kuruma;Car 🚗
 空気;くうき;Kuuki;Air
 今日;きよう;Kyou ;Today
 九;きゅう;Kyuu;Nine
 ;マグロ;Maguro;Tuna 🐟
+毎日;まいにち;Mainichi;Everyday
 ;またあした!;Mataashita;See you tomorrow!
 ;まずい;Mazui;Awful
 道;みち;Michi;Road
@@ -113,6 +119,7 @@ kanji;hirakata;romaji;mean
 何時;なんじ;Nanji;What time?
 ;なぜ;Nase;Why?
 猫;ねこ;Neko;Cat 🐈
+眠い;ねむい;Nemui;Sleepy　😴
 寝る;ねる;Neru;To go to bed
 ;ねずみ;Nezumi;Mouse 🐁
 二;に;Ni;Two
@@ -128,6 +135,7 @@ kanji;hirakata;romaji;mean
 ;おばあさん;Obaasan;Grandmother
 ;おばさん;Obasan;Aunt
 お茶;おちゃ;Ocha;Tea 🍵
+驚いてる;おどろいている;Odoroiteru;Surprised
 ;おげんきですか;Ogenkidesuka;How are you?
 ;おはようございます;Ohayou gozaimasu;Good morning
 ;おいしい;Oishii;Delicious / Tasty
@@ -135,6 +143,7 @@ kanji;hirakata;romaji;mean
 ;おじさん;Ojisan;Uncle
 お母さん;おかあさん;Okaasan;Mother
 起きる;おきる;Okiru;To wake up from bed
+怒っている;おこっている;Okotteiru;Angry
 贈り物;おくりもの;Okurimono;Gift 🎁
 ;おもしろい;Omoshiroi;Funny
 お姉さん;おねえさん;Oneesan;Older sister
@@ -154,7 +163,7 @@ kanji;hirakata;romaji;mean
 六;ろく;Roku;Six
 六月;ろくがつ;Rokugatsu;June
 ;サーモン;Saamon;Salmon
-魚;さかな;Sakana;Fish
+魚;さかな;Sakana;Fish 🐟
 三;さん;San;Three
 三月;さんがつ;Sangatsu;March
 石鹸;せっけん;Sekken;Soap 🧼
@@ -177,6 +186,7 @@ kanji;hirakata;romaji;mean
 座る;すわる;Suwaru;To sit
 ;たべもの;Tabemono;Food
 食べる;たべる;Taberu;To eat
+退屈;たいくつ;Taikutsu;Bored
 ;たかい;Takai;High / Expensive
 蛸;たこ;Tako;Octopus 🐙
 たこ焼き;たこやき;Takoyaki;Ball-shaped snack 🐙
@@ -196,6 +206,7 @@ kanji;hirakata;romaji;mean
 月;つき;Tsuki;Moon 🌙
 ;つめたい;Tsumetai;Cold
 家;うち;Uchi;Home　🏠
+嬉しい;うれしい;Ureshii;Happy　☺️
 分かる;わかる;Wakaru;To understand
 私;わたし;Watashi;I / me
 山;やま;Yama;Mountain 🏔️
