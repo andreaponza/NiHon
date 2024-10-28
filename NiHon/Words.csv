@@ -15,9 +15,11 @@ kanji;hirakata;romaji;mean
 遊ぶる;あそぶる;Asoburu;To Play
 ;あたたかい;Atatakai;Warm
 ;あつい;Atsui;Hot
+馬鹿;ばか;Baka;Idiot
 ;バスケットボール;Basukettobooru;Basketball
 帽子;ぼうし;Boushi;Hat 👒
 豚;ぶた;Buta;Pig
+;だまれ;Damare;Shut up
 ;だれ;Dare;Who?
 ;ドア;Doa;Door 🚪
 ;どこ;Doko;Where?
@@ -30,6 +32,7 @@ kanji;hirakata;romaji;mean
 土曜日;どようび;Doyoubi;Saturday
 映画;えいが;Eiga;Movie 🎥
 駅;えき;Eki;Station 🚉
+;フォーク;Fooku;Fork
 月曜日;げつようび;Getsuyoubi;Monday
 五;ご;Go;Five
 五月;ごがつ;Gogatsu;May
@@ -61,6 +64,7 @@ kanji;hirakata;romaji;mean
 犬;いぬ;Inu;Dog 🐕
 入;いり;Iri;To enter
 ;いそがしい;Isogashii;Busy
+痛い;いたい;Itai;It hurts!
 ;いつ;Itsu;When?
 言う;いう;Iu;To say
 十;じゅう;Juu;Ten
@@ -86,7 +90,7 @@ kanji;hirakata;romaji;mean
 昨日;きのう;Kinou;Yesterday
 金曜日;きんようび;Kinyoubi;Friday
 狐;きつね;Kitzune;Fox 🦊
-子ども;こども;Kodomo;Child 👦
+子供;こども;Kodomo;Child 👦
 恋をしている;こいをしている;Koioishiteru;In love
 ;こんばんは;Konbanwa;Good evening
 ;こんにちは;Konnichiwa;Good afternoon
@@ -107,9 +111,11 @@ kanji;hirakata;romaji;mean
 ;マグロ;Maguro;Tuna 🐟
 毎日;まいにち;Mainichi;Everyday
 ;またあした!;Mataashita;See you tomorrow!
+待って;まって;Matte;Wait 🫷
 ;まずい;Mazui;Awful
 道;みち;Michi;Road
 緑;みどり;Midori;Green 🟩
+皆;みんな;Minna;Everybody
 見る;みる;Miru;To watch
 水;みず;Mizu;Water / Cold Water
 木曜日;もくようび;Mokuyoubi;Thursday
@@ -131,7 +137,7 @@ kanji;hirakata;romaji;mean
 ;ニュース;Niyuusu;News
 ;のみもの;Nomimono;Drinks
 飲む;のむ;Nomu;To drink
-お箸;おはし;Oashi;Sticks 🥢
+お箸;おはし;Oashi;Chopsticks 🥢
 ;おばあさん;Obaasan;Grandmother
 ;おばさん;Obasan;Aunt
 お茶;おちゃ;Ocha;Tea 🍵
@@ -152,6 +158,7 @@ kanji;hirakata;romaji;mean
 ;おにぎり;Onigiri;Rice Ball 🍙
 お兄さん;おにいさん;Oniisan;Older brother
 お酒;おさけ;Osake;Sake 🍶
+お皿;おさら;Osara;Plate 🍽️
 ;おそい;Osoi;Slow
 お父さん;おとうさん;Otousan;Father
 弟;おとうと;Otouto;Younger brother
@@ -163,6 +170,7 @@ kanji;hirakata;romaji;mean
 六;ろく;Roku;Six
 六月;ろくがつ;Rokugatsu;June
 ;サーモン;Saamon;Salmon
+寂し;さびし;Sabishi;Lonely
 魚;さかな;Sakana;Fish 🐟
 三;さん;San;Three
 三月;さんがつ;Sangatsu;March
@@ -176,11 +184,14 @@ kanji;hirakata;romaji;mean
 閉める;しめる;Shimeru;To close
 白;しろ;Shiro;White ◻️
 静か;しずか;Shizuka;Quiet
+食器;しょっき;Shokki;Tableware 🍴
 ;しょっぱい;Shoppai;Salty 🧂
 空;そら;Sora;Sky (That you can see)
+;すごい;Sugoi;Amazing
 水曜日;すいようび;Suiyoubi;Wednesday
 ;すみません;Sumimasen;Excuse me / sorry
 ;すっぱい;Suppai;Sour
+;スプーン;Supuun;Spoon
 ;する;Suru;To do
 寿司;すし;Sushi;Sushi
 座る;すわる;Suwaru;To sit
@@ -207,9 +218,12 @@ kanji;hirakata;romaji;mean
 ;つめたい;Tsumetai;Cold
 家;うち;Uchi;Home　🏠
 嬉しい;うれしい;Ureshii;Happy　☺️
+;うるっさい;Urusai;Shut up
 分かる;わかる;Wakaru;To understand
+分かった;わかった;Wakatta;I understand
 私;わたし;Watashi;I / me
 山;やま;Yama;Mountain 🏔️
+;やめろ;Yamero;Stop it!
 野菜;やさい;Yasai;Vegetable
 ;やさしい;Yasashii;Nice
 ;やすい;Yasui;Cheap
