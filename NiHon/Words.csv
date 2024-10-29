@@ -19,6 +19,7 @@ kanji;hirakata;romaji;mean
 ;バスケットボール;Basukettobooru;Basketball
 帽子;ぼうし;Boushi;Hat 👒
 豚;ぶた;Buta;Pig
+小さい;ちいさい;Chiisai;Small
 ;だまれ;Damare;Shut up
 ;だれ;Dare;Who?
 ;ドア;Doa;Door 🚪
@@ -48,6 +49,7 @@ kanji;hirakata;romaji;mean
 恥ずかしい;はずかしい;Hazukashii;Embarassed
 火;ひ;Hi;Fire 🔥
 日;ひ;Hi;Sun ☀️
+左;ひだり;Hidari;Left　⬅️
 ;ひくい;Hikui;Low
 昼;ひる;Hiru;Noon
 本棚;ほんだな;Hondana;Bookshelf
@@ -109,12 +111,14 @@ kanji;hirakata;romaji;mean
 今日;きよう;Kyou ;Today
 九;きゅう;Kyuu;Nine
 ;マグロ;Maguro;Tuna 🐟
+毎朝;まいあさ;Maiasa;Every morning
 毎日;まいにち;Mainichi;Everyday
 ;またあした!;Mataashita;See you tomorrow!
 待って;まって;Matte;Wait 🫷
 ;まずい;Mazui;Awful
 道;みち;Michi;Road
 緑;みどり;Midori;Green 🟩
+右;みぎ;Migi;Right ➡️
 皆;みんな;Minna;Everybody
 見る;みる;Miru;To watch
 水;みず;Mizu;Water / Cold Water
@@ -157,6 +161,7 @@ kanji;hirakata;romaji;mean
 音楽;おんがく;Ongaku;Music 🎶
 ;おにぎり;Onigiri;Rice Ball 🍙
 お兄さん;おにいさん;Oniisan;Older brother
+大きい;おおきい;Ookii;Big
 お酒;おさけ;Osake;Sake 🍶
 お皿;おさら;Osara;Plate 🍽️
 ;おそい;Osoi;Slow
@@ -183,6 +188,7 @@ kanji;hirakata;romaji;mean
 ;します;Shimasu;Play
 閉める;しめる;Shimeru;To close
 白;しろ;Shiro;White ◻️
+下;した;Shita;Under ⬇️
 静か;しずか;Shizuka;Quiet
 食器;しょっき;Shokki;Tableware 🍴
 ;しょっぱい;Shoppai;Salty 🧂
@@ -217,6 +223,7 @@ kanji;hirakata;romaji;mean
 月;つき;Tsuki;Moon 🌙
 ;つめたい;Tsumetai;Cold
 家;うち;Uchi;Home　🏠
+上;うえ;Ue;Above ⬆️
 嬉しい;うれしい;Ureshii;Happy　☺️
 ;うるっさい;Urusai;Shut up
 分かる;わかる;Wakaru;To understand
