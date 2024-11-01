@@ -17,7 +17,7 @@ struct NiHonWidgetEntryView: View {
         VStack {
             if(entry.kanji != "") {
                 Text(entry.kanji)
-                    .font(.system(size: 30))
+                    .font(.system(size: 40))
                     .multilineTextAlignment(.center)
                 Text(entry.hiraKata)
                     .font(.system(size: 18))
@@ -31,7 +31,6 @@ struct NiHonWidgetEntryView: View {
                 .font(.subheadline)
             Text(entry.mean)
                 .font(.subheadline)
-        
         }
         .padding()
         .containerBackground(.brown.gradient.opacity(0.7), for: .widget)
@@ -49,20 +48,25 @@ struct WordProvider: TimelineProvider {
     }
 
     func getTimeline(in context: Context, completion: @escaping (Timeline<WordEntry>) -> Void) {
-        // Load words from CSV (first try from remote, then fallback to local)
         loadWordsFromCSV { words in
-            let filteredWords = words.dropFirst()
+            var remainingWords = getRemainingWords(from: words)
 
-            // Select casual word
-            if let randomEntry = filteredWords.randomElement() {
-                let entry = WordEntry(date: Date(), kanji: randomEntry.0, hiraKata: randomEntry.1, romaji: randomEntry.2, mean: randomEntry.3)
-                
-                // Set widget update every 1 minute
+            if let randomEntry = remainingWords.randomElement() {
+                remainingWords.removeAll { $0 == randomEntry }
+                saveRemainingWords(remainingWords)
+
+                let entry = WordEntry(
+                    date: Date(),
+                    kanji: randomEntry.0,
+                    hiraKata: randomEntry.1,
+                    romaji: randomEntry.2,
+                    mean: randomEntry.3
+                )
+
                 let nextUpdateDate = Calendar.current.date(byAdding: .minute, value: 1, to: Date())!
                 let timeline = Timeline(entries: [entry], policy: .after(nextUpdateDate))
                 completion(timeline)
             } else {
-                // error loading file
                 let fallbackEntry = WordEntry(date: Date(), kanji: "Error", hiraKata: "Error", romaji: "Error", mean: "Error")
                 let timeline = Timeline(entries: [fallbackEntry], policy: .atEnd)
                 completion(timeline)
@@ -70,12 +74,25 @@ struct WordProvider: TimelineProvider {
         }
     }
 
-    // CSV loader with remote fallback
+    private func getRemainingWords(from words: [(String, String, String, String)]) -> [(String, String, String, String)] {
+        let defaults = UserDefaults.standard
+        if let savedWords = defaults.object(forKey: "remainingWords") as? [[String]], !savedWords.isEmpty {
+            return savedWords.map { ($0[0], $0[1], $0[2], $0[3]) }
+        } else {
+            saveRemainingWords(words)
+            return words
+        }
+    }
+
+    private func saveRemainingWords(_ words: [(String, String, String, String)]) {
+        let defaults = UserDefaults.standard
+        let wordsArray = words.map { [$0.0, $0.1, $0.2, $0.3] }
+        defaults.set(wordsArray, forKey: "remainingWords")
+    }
+
     func loadWordsFromCSV(completion: @escaping ([(String, String, String, String)]) -> Void) {
-        // Attempt to load from remote URL
         let urlString = "https://raw.githubusercontent.com/andreaponza/NiHon/refs/heads/main/NiHon/Words.csv"
         guard let url = URL(string: urlString) else {
-            // Fallback to local if URL is invalid
             completion(loadWordsFromLocalCSV())
             return
         }
@@ -88,16 +105,13 @@ struct WordProvider: TimelineProvider {
                     return
                 }
             }
-            
-            // If download fails, fallback to local
             completion(self.loadWordsFromLocalCSV())
         }
         task.resume()
     }
 
-    // Parse CSV content
     func parseCSV(content: String) -> [(String, String, String, String)] {
-        let rows = content.components(separatedBy: "\n").map { $0.components(separatedBy: ";") }
+        let rows = content.components(separatedBy: "\n").dropFirst().map { $0.components(separatedBy: ";") }
         let words = rows.compactMap { row in
             if row.count == 4 {
                 return (row[0], row[1], row[2], row[3])
@@ -108,7 +122,6 @@ struct WordProvider: TimelineProvider {
         return words
     }
 
-    // Load words from local CSV file
     func loadWordsFromLocalCSV() -> [(String, String, String, String)] {
         guard let filePath = Bundle.main.path(forResource: "Words", ofType: "csv") else {
             return []

@@ -87,9 +87,11 @@ class CSVParser {
         
         return words
     }
+    
 }
 
 struct ContentView: View {
+    @FocusState private var isButtonFocused: Bool
     @State private var words: [Word] = []
     @State private var randomWord: Word? = nil
     @State private var userInput: String = ""
@@ -99,15 +101,21 @@ struct ContentView: View {
     @State private var exercise = ["Hiragana", "Katakana", "Words"]
     @State private var file: String = ""
     
+    func oneTimeRandomWord() -> Word? {
+        guard !words.isEmpty else { return nil }
+        let randomIndex = Int.random(in: 0..<words.count)
+        return words.remove(at: randomIndex)
+    }
+    
     let remoteCSVURL = "https://raw.githubusercontent.com/andreaponza/NiHon/refs/heads/main/NiHon/Words.csv"
-
+    
     var body: some View {
         VStack {
             // Menu for choosing between local and remote files
             Menu("Choose Source") {
                 Button("Load Hiragana", action: {
                     words = CSVParser.loadCSV(from: "Hiragana")
-                    randomWord = words.randomElement()
+                    randomWord = oneTimeRandomWord()
                     file = "Hiragana"
                     userInput = ""
                     comparisonResult = ""
@@ -116,7 +124,7 @@ struct ContentView: View {
                 })
                 Button("Load Katakana", action: {
                     words = CSVParser.loadCSV(from: "Katakana")
-                    randomWord = words.randomElement()
+                    randomWord = oneTimeRandomWord()
                     file = "Katakana"
                     userInput = ""
                     comparisonResult = ""
@@ -127,7 +135,7 @@ struct ContentView: View {
                     CSVParser.loadCSV(from: remoteCSVURL) { fetchedWords in
                         DispatchQueue.main.async {
                             words = fetchedWords
-                            randomWord = words.randomElement()
+                            randomWord = oneTimeRandomWord()
                             file = "Remote Words"
                             userInput = ""
                             comparisonResult = ""
@@ -138,7 +146,7 @@ struct ContentView: View {
                 })
                 Button("Load Words", action: {
                     words = CSVParser.loadCSV(from: "Words")
-                    randomWord = words.randomElement()
+                    randomWord = oneTimeRandomWord()
                     file = "Words"
                     userInput = ""
                     comparisonResult = ""
@@ -147,7 +155,7 @@ struct ContentView: View {
                 })
             }
             .padding()
-
+            
             if let randomWord = randomWord {
                 Text(file)
                     .font(.headline)
@@ -190,24 +198,28 @@ struct ContentView: View {
                     .padding()
                 }
                 
-                } else {
-                    Text("Loading...")
-                }
-                
-                Button("Next word") {
-                    randomWord = words.randomElement()
-                    userInput = ""
-                    comparisonResult = ""
-                    romaji = ""
-                    mean = ""
-                }
-                .padding()
+            } else {
+                Text("Select exercise ...")
+            }
+            
+            Button("Next word \(words.count)") {
+                randomWord = oneTimeRandomWord()
+                userInput = ""
+                comparisonResult = ""
+                romaji = ""
+                mean = ""
+            }
+            .padding()
+            .focused($isButtonFocused)
+            .keyboardShortcut(.defaultAction)
+            
         }
         .onAppear {
             // Load a random local file initially
             file = exercise.randomElement()!
             words = CSVParser.loadCSV(from: file)
-            randomWord = words.randomElement()
+            randomWord = oneTimeRandomWord()
+            isButtonFocused = true
         }
         .containerBackground(.brown.gradient, for: .window)
         .textSelection(.enabled)
