@@ -105,7 +105,7 @@ kanji;hirakata;romaji;mean
 切手;きって;Kitte;Stamp
 狐;きつね;Kitzune;Fox 🦊
 子供;こども;Kodomo;Child 👦
-恋をしている;こいをしている;Koioishiteru;In love
+恋をしている;こいをいしている;Koiwoishiteiru;In love
 ;こんばんは;Konbanwa;Good evening
 ;こんにちは;Konnichiwa;Good afternoon
 ;この;Kono;This (Near speaker adjective)
@@ -119,14 +119,17 @@ kanji;hirakata;romaji;mean
 黒;くろ;Kuro;Black ⬛️
 来る;くる;Kuru;To come
 車;くるま;Kuruma;Car 🚗
-薬;くすり;Kusuri;Medicine 💊
 空気;くうき;Kuuki;Air
 今日;きよう;Kyou;Today
 九;きゅう;Kyuu;Nine
 ;マグロ;Maguro;Tuna 🐟
 毎朝;まいあさ;Maiasa;Every morning
 毎晩;まいばん;Maiban;Everynight
+毎回;まいかい;Maikai;Every time
 毎日;まいにち;Mainichi;Everyday
+毎週;まいしゅう;Maishuu;Every week
+毎年;まいとし;Maitoshi;Every year
+毎月;まいつき;Maitsuki;Every month
 ;またあした!;Mataashita;See you tomorrow!
 待って;まって;Matte;Wait 🫷
 ;まずい;Mazui;Awful
@@ -153,7 +156,7 @@ kanji;hirakata;romaji;mean
 二月;にがつ;Nigatsu;February
 日本;にほん;Nihon;Japan
 ;にく;Niku;Meat
-西;にし;Nishi;
+西;にし;Nishi;West
 ;ニュース;Niyuusu;News
 ;のみもの;Nomimono;Drinks
 飲む;のむ;Nomu;To drink
@@ -179,7 +182,6 @@ kanji;hirakata;romaji;mean
 お兄さん;おにいさん;Oniisan;Older brother
 大きい;おおきい;Ookii;Big
 お酒;おさけ;Osake;Sake 🍶
-お酒;おさけ;Osake;Liquor　🍶
 お皿;おさら;Osara;Plate 🍽️
 ;おそい;Osoi;Slow
 お父さん;おとうさん;Otousan;Father
@@ -189,6 +191,7 @@ kanji;hirakata;romaji;mean
 ;パーティー ;Paateii;Party 🎉
 ;ピザ;Piza;Pizza 🍕
 ;ラーメン;Raamen;Noodle Dish
+;ロブスター;Robusutā;Lobster 🦞
 六;ろく;Roku;Six
 六月;ろくがつ;Rokugatsu;June
 ;サーモン;Saamon;Salmon
@@ -208,7 +211,6 @@ kanji;hirakata;romaji;mean
 下;した;Shita;Under ⬇️
 静か;しずか;Shizuka;Quiet
 食器;しょっき;Shokki;Tableware 🍴
-食事;しょくじ;Shokuji;Meal
 ;しょっぱい;Shoppai;Salty 🧂
 空;そら;Sora;Sky (That you can see)
 ;すごい;Sugoi;Amazing
@@ -236,8 +238,6 @@ kanji;hirakata;romaji;mean
 ;テレビ;Terebi;TV 📺
 時計;とけい;Tokei ;Watch ⌚️
 ;ときどき;Tokidoki;Sometimes
-所;ところ;Tokoro;Place
-友達;ともだち;Tomodaci;Friend
 ;とても;Totemo;Very
 東京;とうきょう;Toukyou;Tokyo
 土;つち;Tsuchi;Ground
@@ -261,3 +261,5 @@ kanji;hirakata;romaji;mean
 雪;ゆき;Yuki;Snow ❄️
 ;ゆうがた;Yuugata;Evening
 全然;ぜんぜん;Zenzen;Not at all
+電話番号;でんわばんごお;Denwabangoo;Phone number
+電話;でんわ;Denwa;Telephone ☎️
