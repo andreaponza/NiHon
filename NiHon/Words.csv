@@ -15,17 +15,22 @@ kanji;hirakata;romaji;mean
 ;あさ;Asa;Morning
 明日;あした;Ashita;Tomorrow
 遊ぶる;あそぶる;Asoburu;To Play
+新しい;あたらしい;Atarashii;New
 ;あたたかい;Atatakai;Warm
-;あつい;Atsui;Hot
+暑い;あつい;Atsui;Hot
 馬鹿;ばか;Baka;Idiot
 晩ごはん;ばんごはん;Bangohan;Dinner 🍲
 ;バスケットボール;Basukettobooru;Basketball
 帽子;ぼうし;Boushi;Hat 👒
 豚;ぶた;Buta;Pig
+違います;ちがいます;Chigaimasu;No, different
 小さい;ちいさい;Chiisai;Small
 大好きです;だいすきです;Daisuki desu;I like you very much
 ;だまれ;Damare;Shut up
 ;だれ;Dare;Who?
+元気;でんき;Denki;Well, Healtly
+電話;でんわ;Denwa;Telephone ☎️
+電話番号;でんわばんごお;Denwabangoo;Phone number
 ;ドア;Doa;Door 🚪
 ;どこ;Doko;Where?
 ;どんな;Donna;What kind of?
@@ -38,6 +43,7 @@ kanji;hirakata;romaji;mean
 映画;えいが;Eiga;Movie 🎥
 駅;えき;Eki;Station 🚉
 ;フォーク;Fooku;Fork
+古い;ふるい;Furui;Old
 月曜日;げつようび;Getsuyoubi;Monday
 五;ご;Go;Five
 五月;ごがつ;Gogatsu;May
@@ -62,6 +68,7 @@ kanji;hirakata;romaji;mean
 一;いち;Ichi;One
 一月;いちがつ;Ichigatsu;January
 家;いえ;Ie;House 🏠
+;いい;Ii;Good
 ;いいえ;Iie;No
 ;イカ;Ika;Squid 🦑
 行く;いく;Iku;To go
@@ -197,6 +204,7 @@ kanji;hirakata;romaji;mean
 ;サーモン;Saamon;Salmon
 寂し;さびし;Sabishi;Lonely
 魚;さかな;Sakana;Fish 🐟
+寒い;さむい;Samui;Cold
 三;さん;San;Three
 三月;さんがつ;Sangatsu;March
 石鹸;せっけん;Sekken;Soap 🧼
@@ -213,6 +221,7 @@ kanji;hirakata;romaji;mean
 食器;しょっき;Shokki;Tableware 🍴
 ;しょっぱい;Shoppai;Salty 🧂
 空;そら;Sora;Sky (That you can see)
+;そう;Sou;Yes, correct
 ;すごい;Sugoi;Amazing
 水曜日;すいようび;Suiyoubi;Wednesday
 ;すみません;Sumimasen;Excuse me / sorry
@@ -224,7 +233,7 @@ kanji;hirakata;romaji;mean
 ;たべもの;Tabemono;Food
 食べる;たべる;Taberu;To eat
 退屈;たいくつ;Taikutsu;Bored
-;たかい;Takai;High / Expensive
+高い;たかい;Takai;High / Expensive
 蛸;たこ;Tako;Octopus 🐙
 たこ焼き;たこやき;Takoyaki;Ball-shaped snack 🐙
 卵焼き/玉子焼き;たまごやき;Tamagoyaki;Grilled egg 🍳
@@ -236,6 +245,7 @@ kanji;hirakata;romaji;mean
 天気;てんき;Tenki;Weather
 天気はどうですか;てんきはどうですか;Tenkiwadoudesuka;What’s the weather like?
 ;テレビ;Terebi;TV 📺
+強い;てすよい;Tesuyoi;Strong
 時計;とけい;Tokei ;Watch ⌚️
 ;ときどき;Tokidoki;Sometimes
 ;とても;Totemo;Very
@@ -249,17 +259,18 @@ kanji;hirakata;romaji;mean
 ;うるっさい;Urusai;Shut up
 分かる;わかる;Wakaru;To understand
 分かった;わかった;Wakatta;I understand
+悪い;わるい;Warui;Bad
 私;わたし;Watashi;I / me
 山;やま;Yama;Mountain 🏔️
 ;やめろ;Yamero;Stop it!
 野菜;やさい;Yasai;Vegetable
 ;やさしい;Yasashii;Nice
-;やすい;Yasui;Cheap
+安い;やすい;Yasui;Cheap
 ;よく;Yoku;Often
 読む;よむ;Yomu;To read
 ;よる;Yoru;Night
+弱い;よわい;Yowai;Weak
 雪;ゆき;Yuki;Snow ❄️
 ;ゆうがた;Yuugata;Evening
+有名;ゆうめい;Yuumei;Famous
 全然;ぜんぜん;Zenzen;Not at all
-電話番号;でんわばんごお;Denwabangoo;Phone number
-電話;でんわ;Denwa;Telephone ☎️
