@@ -81,6 +81,7 @@ kanji;hirakata;romaji;mean
 ;いそがしい;Isogashii;Busy
 ;いっしょに;Isshoni;Together
 痛い;いたい;Itai;It hurts!
+痛み;いたみ;Itami;Pain 😖
 ;いつ;Itsu;When?
 言う;いう;Iu;To say
 十;じゅう;Juu;Ten
@@ -128,6 +129,7 @@ kanji;hirakata;romaji;mean
 車;くるま;Kuruma;Car 🚗
 空気;くうき;Kuuki;Air
 今日;きよう;Kyou;Today
+教室;きょうしつ;Kyoushitsu;Classroom
 九;きゅう;Kyuu;Nine
 ;マグロ;Maguro;Tuna 🐟
 毎朝;まいあさ;Maiasa;Every morning
@@ -140,7 +142,7 @@ kanji;hirakata;romaji;mean
 ;またあした!;Mataashita;See you tomorrow!
 待って;まって;Matte;Wait 🫷
 ;まずい;Mazui;Awful
-滅多い;めったに;Mettai;Rarely
+滅多い;めったい;Mettai;Rarely
 道;みち;Michi;Road
 緑;みどり;Midori;Green 🟩
 右;みぎ;Migi;Right ➡️
