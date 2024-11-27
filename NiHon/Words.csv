@@ -28,7 +28,6 @@ kanji;hirakata;romaji;mean
 大好きです;だいすきです;Daisuki desu;I like you very much
 ;だまれ;Damare;Shut up
 ;だれ;Dare;Who?
-元気;でんき;Denki;Well, Healtly
 電話;でんわ;Denwa;Telephone ☎️
 電話番号;でんわばんごお;Denwabangoo;Phone number
 ;ドア;Doa;Door 🚪
@@ -44,6 +43,7 @@ kanji;hirakata;romaji;mean
 駅;えき;Eki;Station 🚉
 ;フォーク;Fooku;Fork
 古い;ふるい;Furui;Old
+元気;げんき;Genki;Well, Healtly
 月曜日;げつようび;Getsuyoubi;Monday
 五;ご;Go;Five
 五月;ごがつ;Gogatsu;May
@@ -118,6 +118,7 @@ kanji;hirakata;romaji;mean
 ;こんにちは;Konnichiwa;Good afternoon
 ;この;Kono;This (Near speaker adjective)
 ;コーヒー;Koohii;Coffe ☕️
+高価;こうか;Kooka;Expensive
 ;これ;Kore;This (Near speaker pronoums)
 公園;こうえん;Kouen;Park　
 小指;こゆび;koyubi;Pinkie
@@ -140,6 +141,7 @@ kanji;hirakata;romaji;mean
 毎週;まいしゅう;Maishuu;Every week
 毎年;まいとし;Maitoshi;Every year
 毎月;まいつき;Maitsuki;Every month
+;マンゴ一;Mangoo;Mango 🥭
 ;またあした!;Mataashita;See you tomorrow!
 待って;まって;Matte;Wait 🫷
 ;まずい;Mazui;Awful
@@ -175,7 +177,7 @@ kanji;hirakata;romaji;mean
 ;おばさん;Obasan;Aunt
 お茶;おちゃ;Ocha;Tea 🍵
 驚いてる;おどろいている;Odoroiteru;Surprised
-;おげんきですか;Ogenkidesuka;How are you?
+お元気ですか;おげんきですか;Ogenkidesuka;How are you?
 ;おはようございます;Ohayou gozaimasu;Good morning
 ;おいしい;Oishii;Delicious / Tasty
 ;おじいさん;Ojiisan;Grandfather
@@ -191,6 +193,7 @@ kanji;hirakata;romaji;mean
 ;おにぎり;Onigiri;Rice Ball 🍙
 お兄さん;おにいさん;Oniisan;Older brother
 大きい;おおきい;Ookii;Big
+大麦;おおむぎ;Oomugi;Barley
 お酒;おさけ;Osake;Sake 🍶
 お皿;おさら;Osara;Plate 🍽️
 ;おそい;Osoi;Slow
